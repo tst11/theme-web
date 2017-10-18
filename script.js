@@ -64,7 +64,7 @@ $( ".hover-box" ).hover(
 //Slick carousel
 $('.news-carousel').slick({
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   arrows: false,
   autoplaySpeed: 3000,
   slidesToShow: 3,
