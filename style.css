@@ -425,6 +425,23 @@ input.mbs-search:focus{
   color: #7CD4CE;
 }
 
+.mbs-buttons {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.mbs-buttons button {
+  background-color: inherit;
+  border: none;
+  color: #7978D9;
+  font-size: 1.3em;
+  margin-right: 15px;
+}
+
+.mbs-buttons button:focus {
+  outline: none;
+}
+
 /* 48em = 768px */
 
 @media (min-width: 48em) {

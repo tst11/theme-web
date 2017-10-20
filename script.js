@@ -95,10 +95,14 @@ $('.news-carousel').slick({
         infinite: true
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
+});
+
+$('.slick-next').click(function(){
+  $('.news-carousel').slick('slickNext');
+});
+$('.slick-prev').click(function(){
+  $('.news-carousel').slick('slickPrev');
 });
 
 // $(function(){
